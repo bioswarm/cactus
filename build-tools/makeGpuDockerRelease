@@ -15,7 +15,7 @@ set -x
 rm -rf ${binBuildDir}
 mkdir -p ${binBuildDir}
 cd ${binBuildDir}
-git clone --recursive https://github.com/ComparativeGenomicsToolkit/cactus.git
+git clone --recursive https://github.com/bioswarm/cactus.git
 cd cactus
 git fetch --tags origin
 
